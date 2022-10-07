@@ -32,6 +32,13 @@ var agua=false
 var posso_fazer_bolo=true
 var resposta_da_condição = farinha==false;
 console.log({resposta_da_condição})
+function vai_no_epa() {
+  if (existe_ovos) {
+    separa_ovos()
+    coloca_no_carrinho()
+    tras_ovos()
+  }
+}
 if(farinha==false){
   posso_fazer_bolo=false
   console.log("que pena, voce nao pode fazer bolo! voce precisa comprar farinha")
